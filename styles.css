@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+* {
+  transition: 0.33 ease all;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+div.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+div.container {
+  background: white;
+  margin: 30px;
+  border-radius: 1px;
+  box-shadow: 0 0 1px #000000
+}
+div.container:hover {
+    opacity: 60%;
+    box-shadow: 0 3px 18px #000000;
+  }
+
+.imag {
+    height: 290px;
+    width: 290px;
+}
+
+div.card-content {
+    margin: 0 0 0 0;
+  }
+  span{
+    padding-left: 16px;
+    display: block;
+  }
+.card-title{
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #0F5EF0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.card-name{
+    padding-top: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #7A8594;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.card-date{
+    padding-top: 20px;
+    padding-bottom: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7A8594; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.imag {
+  height: 290px;
+  width: 290px;
+  background: url("images/jake-oates-E38KRRk1fvg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* media query */
+
+@media screen and (min-width: 768px) {
+  div.container {
+    flex-direction: column;
+  }
+  div.imag {
+    min-width: 290px;
+    height: 290px;
+  }
+
+  /* set div.imag container size */
+
+  div.card-content {
+    margin: 0 0 0 0;
+    max-width: 660px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  div.container {
+    max-width: 1200px;
+  }
+}
