@@ -20,56 +20,55 @@ div.container {
   background: white;
   margin: 30px;
   border-radius: 1px;
-  box-shadow: 0 0 1px #000000
+  box-shadow: 0 0 1px #000000;
 }
 div.container:hover {
-    opacity: 60%;
-    box-shadow: 0 3px 18px #000000;
-  }
+  opacity: 60%;
+  box-shadow: 0 3px 18px #000000;
+}
 
 .imag {
-    height: 290px;
-    width: 290px;
+  height: 290px;
+  width: 290px;
 }
 
 div.card-content {
-    margin: 0 0 0 0;
-  }
-  span{
-    padding-left: 16px;
-    display: block;
-  }
-.card-title{
-    padding-top: 20px;
-    font-weight: 600;
-    font-size: 15px;
-    color: #0F5EF0;
-    font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 0 0 0;
 }
-.card-name{
-    padding-top: 18px;
-    font-weight: bold;
-    font-size: 12px;
-    color: #7A8594;
-    font-family: 'Source Sans Pro', sans-serif;
+span {
+  padding-left: 16px;
+  display: block;
 }
-.card-date{
-    padding-top: 20px;
-    padding-bottom: 14px;
-    font-weight: 400;
-    font-size: 12px;
-    color: #7A8594; 
-    font-family: 'Source Sans Pro', sans-serif;
+.card-title {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #0f5ef0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.card-name {
+  padding-top: 18px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #7a8594;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.card-date {
+  padding-top: 20px;
+  padding-bottom: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7a8594;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 div.imag {
   height: 290px;
   width: 290px;
-  background: url("images/jake-oates-E38KRRk1fvg-unsplash.jpg");
+  background: url('https://cdn.jsdelivr.net/gh/Patil-Pankaj/web-platform-xlggfh@main/jake-oates-E38KRRk1fvg-unsplash.jpg');
   background-size: cover;
   background-position: center;
 }
-
 
 /* media query */
 
